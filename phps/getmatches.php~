@@ -1,7 +1,0 @@
-<?php
-$folder = "matches/game*";
-foreach(glob($folder) as $folder_name) {
-    
-    print "<a href=\"$folder_name/$folder_name.php\">$folder_name</a><br>";
-}
-?>
