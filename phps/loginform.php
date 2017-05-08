@@ -37,7 +37,7 @@ END;
 
 function process_form() {
     //connecting to database
-	$db = new PDO("mysql:host=mysql.truman.edu;dbname=dtl1325CS315", "dtl1325", "aoxaifei");
+	$db = new PDO("mysql:host=mysql.truman.edu;dbname=dtl1325CS315", "dtl1325", "***");
 	if (!$db) {
 	    print "Error - Could not connect to mysql";
 	    exit;
